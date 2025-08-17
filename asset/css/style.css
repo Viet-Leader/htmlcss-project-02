@@ -139,3 +139,74 @@ header.header.fixed {
     line-height: 122.727%;
     padding-left: 12px;
 }
+.hero strong:first-child{
+    padding-left: 0px;
+}
+.hero .btn-hero{
+    width: 180px;
+    padding:24px 16px;
+    border-radius: 32px;
+    background: #FFB900;
+    margin-right: 28px;
+}
+.hero .acces .video {
+    display: flex;
+    align-items: center;
+}
+.hero .acces .logo-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFF;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
+    margin-right: 14px;
+}
+.hero .dev{
+    position: absolute;
+    width: 270px;
+    height: 244px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
+    bottom:48px;
+    right:-100px;
+    padding:24px 36px;
+}
+.hero .dev .desc{
+    color: #5F5B53;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.714%;
+}
+.hero .dev strong{
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 166.667%;
+    padding-left: 0px;
+}
+.hero .media-block{
+    position: relative;
+}
+.hero .dev .text{
+    text-align: left;
+}
+.hero .dev .icon{
+    object-fit: cover;
+}
+.hero .dev .container-icon{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+        padding:12px;
+    background-color: #FFF9E8;
+    border-radius: 50%;
+    margin-right: 16px;
+}
