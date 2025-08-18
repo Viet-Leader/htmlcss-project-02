@@ -336,3 +336,71 @@ header.header.fixed {
 .popular .text .action .btn.btn-popular:hover{
     background-color: #FFB900;;
 }
+/*FEEDBACK*/
+.feedback {
+    padding:96px 0px;
+    background-color: #2E2100;
+}
+.feedback .feedback-main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-shrink: 0;
+}
+.feedback .avarta{
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+.feedback h3{
+    color: #F7F7F7;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 141.667%;
+}
+.feedback .desc{
+    color: #BFBCB2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.714%;
+    margin-top: 4px;
+}
+.feedback .dots{
+    display: flex;
+    margin-top:28px ;
+}
+.feedback .dot{
+    background-color: #634700ff;
+    width: 6px;
+    height: 6px;
+    flex-shrink: 0;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+.feedback .text .quotes{
+    width: 740px;
+    position: relative;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 153.846%;
+}
+.feedback .text img{
+    margin-left: -37px;
+}
+.feedback .dot.active{
+    background-color: #FFB900;
+}
+.feedback .feedback-items{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
