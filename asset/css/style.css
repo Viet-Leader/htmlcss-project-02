@@ -26,6 +26,7 @@ a{
     background: #171100;
     text-align: center;
     color: #fff;
+    cursor: pointer;
 }
 .line-clamp{
     display: -webkit-box;
@@ -374,11 +375,11 @@ header.header.fixed {
     line-height: 185.714%;
     margin-top: 4px;
 }
-.feedback .dots{
+ .dots{
     display: flex;
     margin-top:28px ;
 }
-.feedback .dot{
+ .dot{
     background-color: #634700ff;
     width: 6px;
     height: 6px;
@@ -399,7 +400,7 @@ header.header.fixed {
 .feedback .text img{
     margin-left: -37px;
 }
-.feedback .dot.active{
+.dot.active{
     background-color: #FFB900;
 }
 .feedback .feedback-items{
@@ -432,6 +433,7 @@ header.header.fixed {
 }
 .featured .text{
     margin-top: 58px;
+    margin-left: 130px;
 }
 .featured .text h3{
     color: #171100;
@@ -463,4 +465,170 @@ header.header.fixed {
     border-radius: 20px;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
     object-fit: cover;
+}
+/*BLOG*/
+.blog{
+    padding:96px 0px;
+    background-color: #FFFCF4;;
+}
+.blog h3{
+    color: #130606;
+    text-align: center;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126.316%;
+    letter-spacing: -0.76px;
+}
+.blog .desc{
+    color: #696262;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:175%;
+}
+.blog .desc.main-desc{
+    width: 448px;
+    margin: 16px auto 55px;
+    text-align: center;
+}
+.blog .blog-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.blog .blog-container .blog-items{
+    width: 370px;
+    border-radius: 16px 16px 0 0;
+    border-radius: 16px;
+    background: #FFF;
+
+}
+.blog .blog-container .blog-items:hover{
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
+}
+.blog .blog-container .blog-items .blog-image{
+    width: 370px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+}
+.blog .blog-items .infor{
+    margin-left: 20px;
+}
+.blog .blog-items .icon-cicle{
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #FFB900;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.blog .blog-items .date{
+    display: flex;
+    align-items: center;
+    margin:20px 0px 12px;
+}
+.blog .blog-items .break{
+    display: block;
+    width: 160px;
+    height: 1px;
+    border-radius: 0.5px;
+    background: #E2DFDA;
+    margin-bottom: 12px;
+}
+.blog .blog-items strong{
+    display: block;
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%;
+    margin-bottom: 12px;
+}
+.blog .blog-items .btn.blog-btn:hover{
+    background-color: #FFB900;
+    color:#FFF;
+}
+.blog .blog-items .btn.blog-btn{
+    margin-bottom: 28px;
+}
+.blog .dots.blog-dots{
+    justify-content: center;
+    margin-top: 38px;
+}
+/*FOOTER*/
+.footer {
+    padding:96px 0px 28px;
+    background-color: #2E2100;
+}
+.footer .logo{
+    margin-bottom: 18px;
+}
+.footer .row{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .icon-social{
+    display: flex;
+    gap:18px;
+    margin-top: 18px;
+}
+.footer .desc{
+    color: #BFBCB2;
+    width: 267px;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.714%;
+}
+.footer .infor-list h4{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%;
+    margin-bottom: 14px;
+}
+.footer .infor-list .break{
+    display: block;
+    width: 130px;
+    height: 1px;
+    background-color: #59554B;
+    margin-bottom: 28px;
+}
+.footer .infor-list .title{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 185.714%;
+}
+.footer .infor-list .item{
+    margin-bottom: 12px;
+}
+.footer .infor-list .item.loca{
+    width: 231px;
+}
+.footer .break-footer{
+    width: 100%;
+    height: 1px;
+    background-color: #59554B;
+    margin-top: 26px;   
+}
+.footer .footer-copyrihgt{
+    color: #807D74;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185.714%;
+    margin-top: 28px;
 }
